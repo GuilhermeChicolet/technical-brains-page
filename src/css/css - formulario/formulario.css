@@ -1,0 +1,105 @@
+#container-form {
+  
+  background-color: #dddddd;
+  overflow: hidden;
+  width: 100%;
+  max-width: 100%;
+}
+
+#form {
+ 
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  background-color: #dddddd;
+  padding: 26px;
+  padding-top: 3em;
+  padding-bottom: 0;
+  width: 40em;
+  height: 48em;
+  padding: 1rem;
+}
+
+.input::placeholder,
+#campo-obrigatorio,
+#mensagem::placeholder,
+#campos-obrigatorios {
+  font-family: var(--fonte-principal);
+}
+
+.input {
+  /* width: 47em; */
+  height: 5em;
+  border-radius: 6px;
+  border: 1px solid black;
+  resize: vertical;
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+}
+
+.input::placeholder {
+  font-size: 20px;
+}
+
+.campo-obrigatorio {
+  font-size: 14px;
+  margin-left: 0.5em;
+  color: #dddddd;
+  padding: 0.5em 0 0.5em 0;
+}
+
+#mensagem {
+  height: 110px;
+  /* width: 47em; */
+  padding-bottom: 110px;
+  border-radius: 6px;
+  overflow: hidden;
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+}
+
+#mensagem::placeholder {
+  text-align: left;
+  margin-bottom: 200px;
+  vertical-align: top;
+  font-size: 21px;
+  padding-left: 0.8em;
+  padding-top: 0.4em;
+}
+
+.campos-obrigatorios {
+  color: #5a5b5c;
+  font-size: 23px;
+  font-family: var(--fonte-principal);
+  font-weight: 500;
+}
+
+#botao {
+  
+  background-color: #8e2424;
+  color: var(--cinza-principal);
+  height: 4.5em;
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+  border-radius: 12px;
+  border: none;
+  padding: 0;
+  margin-top: 2em;
+  overflow: hidden;
+  float: left;
+  width: 50%;
+}
+
+.input.valid {
+  border: 2px solid green;
+}
+
+.input.invalid {
+  border: 2px solid #8e2424;
+}
+
+.show {
+  color: #8e2424;
+}

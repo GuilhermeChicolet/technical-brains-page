@@ -1,0 +1,12 @@
+@import url("formulario.css");
+@import url("divisoria.css");
+@import url("cabecalho-contato.css");
+
+:root {
+  --fonte-principal: "Poppins";
+  --fonte-secundaria: "Josefin Sans";
+}
+
+body {
+  background-color: #dddddd;
+}

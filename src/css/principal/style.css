@@ -1,0 +1,13 @@
+@import url("./header.css");
+@import url("./main.css");
+@import url("./footer.css");
+
+:root {
+  --fonte: "Inter";
+  --branco: #ffffff;
+  --vermelho: #8e2424;
+  --cinza-escuro: #101828;
+  --cinza-claro: #667085;
+  --cinza: #f1f1f1;
+  --cinza-principal: #dddddd;
+}

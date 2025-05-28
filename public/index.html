@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Technical Brains</title>
+    <link rel="stylesheet" href="/src/css/principal/style.css" />
+    <link
+      rel="shortcut icon"
+      href="/assets/pictures/fav.logo.ico"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+  </head>
+
+  <body>
+    
+    <header>
+
+     <div id="logo">
+      <a href="index.html" class="logo"
+        ><img src="/assets/pictures/globo.png" alt="" id="imagem" /><span id="logo-txt"
+          >Technical Brains</span
+        ></a
+      >
+    </div>
+     
+      <div class="header">
+        
+        <div class="header-right">
+          <a id="home-default" href="/public/index.html">Home</a>
+          <a class="item-menu" href="/public/contato.html">Contact</a>
+          <a class="item-menu" href="#about">About</a>
+        </div>
+    
+    </header>
+
+    <main id="corpo-main">
+      <br />
+
+      <picture
+        ><img
+          id="primeira-imagem"
+          src="/assets/pictures/reuniao335x217.jpg"
+          alt="Reunião Empresarial com pessoas sentadas à mesa, checando relatórios e notebooks."
+        />
+      </picture>
+
+      <div class="swiper">
+ 
+        <div class="swiper-wrapper">
+          <div class="swiper-slide" data-swiper-autoplay="5000">
+            <img
+              src="/assets/pictures/primeiro-banner.png"
+              alt="Projetos: Nós ajudamos a construir
+                    mais de 400 projetos
+                    incríveis em 15 países."
+              class="banner"
+            />
+          </div>
+
+          <div class="swiper-slide" data-swiper-autoplay="5000">
+            <img
+              src="/assets/pictures/segundo-banner.png"
+              alt="Colaboradores: Temos mais de 100
+                    colaboradores cuidando dos
+                    nossos clientes"
+              class="banner"
+            />
+          </div>
+
+          <div class="swiper-slide" data-swiper-autoplay="5000">
+            <img
+              src="/assets/pictures/terceiro-banner.png"
+              alt="Downloads:
+                    Nossos projetos que estão
+                    disponíveis em lojas já foram
+                    baixados mais de 20.000 vezes."
+              class="banner"
+            />
+          </div>
+
+          <div class="swiper-slide" data-swiper-autoplay="5000">
+            <img
+              src="/assets/pictures/quarto-bannner.png"
+              alt="Reviews 5 estrelas: Estamos orgulhosos de contar
+                    com mais de 500 reviews
+                    5 estrelas em nossos produtos."
+              class="banner"
+            />
+          </div>
+        </div>
+       
+      </div>
+
+      <div id="descricao-container">
+        <h2 id="titulo-quem-somos">Sobre nós</h2>
+        <h3 id="subtitulo-quem-somos">Quem somos?</h3>
+         
+        <span class="descricao"
+          >Fundada em 2008, a Technical Brains é uma empresa altamente conceituada <br />no
+          campo da tecnologia.<br />
+          <span class="descricao-quebra">
+          Atuamos no ramo de consultoria, criação e desenvolvimento web.</span
+        >
+        <span class="descricao-quebra">
+          Produzindo soluções para <br> os mais diversos seguimentos de última
+          geração do mercado.
+        </span>
+      </div>
+
+      <div id="container-services">
+        <ul id="services">
+          <!-- nada de relevante-->
+          <li id="item-servico">
+            <!-- Pai com position relative e display block em tese todos os filhos a baixo teriam isso -->
+            <a href="#" id="titulo" onclick="toggleMenu(event)">Serviços</a>
+            <!-- Inline-block para tirar o grifado horizontal-->
+            <ul class="submenu">
+              <!-- elementos com z-index1 aparecem antes dos que tem z-index zero, ou seja, sem z-index --- display: none; position: absolute;-->
+              <li>
+                <a href="#">Web Design</a>
+              </li>
+              <li>
+                <a href="#">Hospedagem</a>
+              </li>
+              <li>
+                <a href="#">Desenvolvimento</a>
+              </li>
+              <li>
+                <a href="#">Soluções de Software</a>
+              </li>
+            </ul>
+          </li>
+         
+        </ul>
+       
+      </div>
+    </main>
+
+    <footer id="rodape"><h3 id="direitos-reservados">Todos os direitos reservados. &#169;
+      </h3></footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="/src/js/swiper.js"></script>
+    <script src="/src/js/services.js"></script>
+  </body>
+</html>
